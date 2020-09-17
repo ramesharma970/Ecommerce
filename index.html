@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width= device-width, intial-scale = 1.0">
-	<title> E-commerce Website</title>
+	<title> Homepage </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@200;600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,14 +18,15 @@
 		</div>
 		<nav>
 			<ul id="MenuItems">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Products</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="product.html">Products</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Contact</a></li>
 				<li><a href="#">Account</a></li>
 			</ul>
 		</nav>
-		<img src="images/cart.png" width="30px" height="30px">
+		<a href="cart.html"> <img src="images/cart.png" width="30px" height="30px"> </a>
+
 		<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
 	</div>
 	<div class="row">
@@ -372,8 +373,10 @@
 		<hr>
 		<p class="copyright"> Copyright 2020 - Coddaku</p>
 	</div>
-</div>
+</div> 
+
 <!--JS for menutoggle-->
+
 <script>
 	var MenuItems = document.getElementById('MenuItems');
 	MenuItems.style.maxHeight = "0px";
@@ -388,8 +391,6 @@
 		}
 	}
 </script>
-
-
 
 
 
